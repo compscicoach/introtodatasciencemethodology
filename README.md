@@ -5,7 +5,7 @@ Github is static html
 However, this jupyter notebook is interactive so to execute the code samples utilize binder link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/compscicoach/introtodatasciencemethodology/master)
 then click to run Introduction to Python Programming.ipynb I am using binder because it creates a multi-user Jupyter notebook server environment to run my interactive notebook which has a back end of three components:
 
-
+The requirements3 file is required, it needs to be created for Python 3 dependencies/packages that need to be installed at build time such as matplotlib, pandas
 
 
 # Information on BinderHub, JupyterHub, Docker/Kubernetes, Helm
