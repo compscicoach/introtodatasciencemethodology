@@ -1,6 +1,6 @@
 # Introduction to Data Science Methodology - Python 
 
-Here is a graphical interactive Python tutorial to introduce beginners to the language 
+Here is a graphical interactive Python tutorial to introduce beginners to data science methodology using Python
 Github is static html 
 However, this jupyter notebook is interactive so to execute the code samples utilize binder link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/compscicoach/introtodatasciencemethodology/master)
 then click to run Introduction to Python Programming.ipynb I am using binder because it creates a multi-user Jupyter notebook server environment to run my interactive notebook which has a back end of three components:
