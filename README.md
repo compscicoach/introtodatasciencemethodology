@@ -1,4 +1,4 @@
-# Introduction to Data Science Methodology - Python - 
+# Introduction to Data Science Methodology - Python 
 
 Here is a graphical interactive Python tutorial to introduce beginners to the language 
 Github is static html 
