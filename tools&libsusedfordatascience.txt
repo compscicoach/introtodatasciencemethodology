@@ -1,0 +1,11 @@
+R - Programming languaged used for Statistical Computing, used for data manipulation & collecting(searching & aggregating data)
+SQL - Language used for querying structured data
+Python - general purpose programming language(GUI desktop apps, web apps, websites) most importantly, used for data science
+Jupyter notebooks - researchers can use to combine software code, computational output, explanatory text and multimedia resources in a single document
+Atom - Text editor for writing/testing code
+Spark - engine for big data processing, with built-in modules for streaming, SQL, machine learning and graph processing
+Bokeh-Python library for visualizations
+Scikit-learn - Machine learning in Python
+Mlib- Apache Spark's scalable machine learning library.... MLlib fits into Spark's APIs and interoperates with NumPy in Python (as of Spark 0.9) and R libraries (as of Spark 1.5).
+NumPy - library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays
+Pandas - high-performance, easy-to-use data structures and data analysis tools for the Python programming language
