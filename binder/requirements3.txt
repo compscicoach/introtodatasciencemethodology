@@ -8,3 +8,4 @@ collections
 kernelapp
 re 
 scikit-learn
+scipy
