@@ -2,3 +2,9 @@
 numpy
 matplotlib
 pandas
+bokeh
+seaborn
+collections 
+kernelapp
+re 
+scikit-learn
