@@ -4,4 +4,6 @@ the knowledge concerning the sociodemographic factors for a customer, their buyi
 website, as well as their driving behavior and individual use of a vehicle, the more accurately it will be possible to address their needs 
 and provide them with an optimal offer for a vehicle (suitable model with appropriate equipment features) and its financing.
 
+Also data to incorporate dangerous areas, predict best path based on not only time but most optimal path user may want to take based on travel data
+
 https://data-science-blog.com/blog/2017/05/06/artificial-intelligence-and-data-science-in-the-automotive-industry/#4f
