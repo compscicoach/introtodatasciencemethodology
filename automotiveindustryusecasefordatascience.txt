@@ -1,0 +1,5 @@
+Considering sales operations in greater detail, it is obvious that knowledge regarding each individual customer’s interests
+and preferences when buying a vehicle or, in future, temporarily using available vehicles, is an important factor. The more individualized 
+the knowledge concerning the sociodemographic factors for a customer, their buying behavior, or even their clicking behavior on the OEM’s 
+website, as well as their driving behavior and individual use of a vehicle, the more accurately it will be possible to address their needs 
+and provide them with an optimal offer for a vehicle (suitable model with appropriate equipment features) and its financing.
