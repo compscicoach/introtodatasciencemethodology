@@ -1,4 +1,12 @@
 dependencies:
+  - json
+  - re
   - matplotlib
   - numpy
   - pandas
+  - seaborn
+  - matplotlib
+  - scikit-learn
+  - scipy
+  - collections
+  - ipykernel
