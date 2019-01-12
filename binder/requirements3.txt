@@ -11,3 +11,4 @@ kernelapp
 scikit-learn
 scipy
 ipykernel
+counter
