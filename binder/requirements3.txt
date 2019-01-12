@@ -1,4 +1,6 @@
 #file contains the packages needed to run the notebooks
+json
+re
 numpy
 matplotlib
 pandas
@@ -6,6 +8,9 @@ bokeh
 seaborn
 collections 
 kernelapp
-re 
 scikit-learn
 scipy
+ipykernel
+
+
+ 
