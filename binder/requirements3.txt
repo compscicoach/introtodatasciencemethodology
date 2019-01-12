@@ -11,6 +11,3 @@ kernelapp
 scikit-learn
 scipy
 ipykernel
-
-
- 
