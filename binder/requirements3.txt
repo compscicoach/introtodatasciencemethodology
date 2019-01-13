@@ -8,7 +8,12 @@ bokeh
 seaborn
 collections 
 kernelapp
-scikit-learn
+sklearn
+tree
+accuracy_score
+confusion_matrix
+graphviz
+export_graphviz
 scipy
 ipykernel
 counter
