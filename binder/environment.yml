@@ -17,3 +17,4 @@ dependencies:
   - ipykernel
   - bokeh
   - counter
+  - random
