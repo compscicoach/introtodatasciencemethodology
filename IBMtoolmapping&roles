@@ -1,0 +1,33 @@
+Data Science Methodology - IBM Tool mapping & roles:
+
+Analytic Approach: 
+- ML: Watson Machine Learning
+- Statistical: SPSS Statistics/Modeler found in Watson Studio
+
+Data Requirements:
+
+Data Tools chosen:
+
+Data Collection:
+
+Data Understanding:
+
+Data Preprocessing(Cleansing, Integration, Transformation, Reduction):
+- Watson Studio (Data Refinery for cleansing, transformation) self service
+
+Data Modeling:
+- Watson Studio (can use Anaconda(Python), Spark(Big Data), GPU(Deep Learning) for testing and deploying AI models) self service
+- SPSS Statistics/Modeler
+
+Data Evaluation:
+
+Data Model Deployment/Updating via Feedback:
+- Watson Machine Learning
+- Watson Studio (can use Anaconda(Python), Spark(Big Data), GPU(Deep Learning) for testing and deploying AI models) 
+  and SPSS Statitics/Modeler for statistical model deployment self service
+
+
+Post Deployment
+- AI openscale integrates with WML (analyze deployed models at scale, transparency into decisions/predictions, Continuously deploy customized, AI generated neural networks without code)
+
+
