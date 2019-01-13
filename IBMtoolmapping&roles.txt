@@ -18,6 +18,10 @@ Data Preprocessing(Cleansing, Integration, Transformation, Reduction):
 Data Modeling:
 - Watson Studio (can use Anaconda(Python), Spark(Big Data), GPU(Deep Learning) for testing and deploying AI models) self service
 - SPSS Statistics/Modeler
+- NLU API - create a custom model using NLP for text analytics for some APIs to get specific results that are tailored to your domain
+- WKS API - 
+- WDS API - (use WKS to annotate & build/deploy custom model specific for your domain)
+- Watson Explorer
 
 Data Evaluation:
 
