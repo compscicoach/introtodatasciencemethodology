@@ -18,3 +18,4 @@ dependencies:
   - bokeh
   - counter
   - random
+  - itertools
