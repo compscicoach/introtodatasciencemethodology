@@ -6,7 +6,12 @@ dependencies:
   - pandas
   - seaborn
   - matplotlib
-  - scikit-learn
+  - ssklearn
+  - tree
+  - accuracy_score
+  - confusion_matrix
+  - graphviz
+  - export_graphviz
   - scipy
   - collections
   - ipykernel
