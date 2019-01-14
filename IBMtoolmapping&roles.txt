@@ -27,11 +27,17 @@ Data Evaluation:
 
 Data Model Deployment/Updating via Feedback:
 - Watson Machine Learning
-- Watson Studio (can use Anaconda(Python), Spark(Big Data), GPU(Deep Learning) for testing and deploying AI models) 
+- Watson Studio (can use Anaconda(Python), Spark(Big Data), GPU(Deep Learning) for testing/trained and deploying AI models) 
   and SPSS Statitics/Modeler for statistical model deployment self service
 
 
 Post Deployment
 - AI openscale integrates with WML (analyze deployed models at scale, transparency into decisions/predictions, Continuously deploy customized, AI generated neural networks without code)
 
-a
+Infuse AI:
+Watson Assistant-Customer service
+Watson Discovery-data discovery for knowledge workers
+Natural Language Understanding
+Visual Recognition
+Speech-To-Text
+Text-To-Speech
