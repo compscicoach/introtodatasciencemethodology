@@ -1,19 +1,15 @@
 dependencies:
   - json
-  - re
   - matplotlib
   - numpy
   - pandas
   - seaborn
   - matplotlib
-  - ssklearn
-  - tree
   - accuracy_score
   - confusion_matrix
   - graphviz
   - export_graphviz
   - scipy
-  - collections
   - ipykernel
   - bokeh
   - counter
