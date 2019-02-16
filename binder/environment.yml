@@ -1,17 +1,13 @@
 dependencies:
-  - json
+
   - matplotlib
   - numpy
   - pandas
   - seaborn
   - matplotlib
-  - accuracy_score
-  - confusion_matrix
   - graphviz
-  - export_graphviz
   - scipy
   - ipykernel
   - bokeh
-  - counter
-  - random
-  - itertools
+ 
+  
