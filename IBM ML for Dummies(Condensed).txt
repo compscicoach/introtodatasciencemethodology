@@ -1,0 +1,385 @@
+
+ML For Dummies(Condensed Notes):
+
+AI (systems that can think)
+
+Why should businesses use ML?
+
+Businesses can gain competitive advantage through advanced analytics since they are now facing new and unanticipated competitors. Need new strategies for the future and that is “follow the data”
+
+Orgs are looking for innovative ways to leverage data assets for the business to gain a new level of understanding
+
+With appropriate ML models, orgs can continually predict changes to the business so they can better predict what’s next
+
+Data gets constantly added so the model  ensure the solution gets updated, and the value is that you can predict the future
+
+Companies are experiencing a progression in analytics maturity levels ranging from descriptive analytics(which product styles are selling better this quarter as compared to last quarte rusing historical data) to predictive analytics (how can the web experience be transformed to entice a customer to buy frequently using continuously updated data models, anticipate changes / react and looking for patterns/anomalies)to machine learning and cognitive computing.
+
+
+What is ML & the ML modeling process and an example of an ML model?
+
+ML enables a system to learn from data vs. explicit programming
+
+A ML model is the output that is generated when you train your ML algorithm with data
+
+After training you provide your model with an input, you will be given an output e.g. a predictive algorithm creates a predictive model, then you provide the predictive model with data you will receive a prediction based on data that trained the model
+
+
+Recommended purchases uses a ML model that ingests your browsing history and others browsing/purchasing history
+
+Iterative Learning from Data:
+
+complex algorithms can be automatically adjusted based on rapid changes in variables, such as sensor data, time, 
+weather data, and customer sentiment metrics
+
+The improvements in accuracy are a result of the training process and automation that is part of machine learning
+
+Big Data:
+While big data can be very useful for training machine learning models, organizations can use machine learning with just a few thousand data points
+
+An innovative business in a fast-changing market will want to deploy a model that can make inferences in milliseconds to quickly assess the best offer for an at-risk customer to keep her happy. It is necessary to identify the right amount and types of data that can be analyzed to impact business outcomes. Big data incorporates all data, includ
+ing structured, unstructured, and semi-structured data from email, social media, text streams, images, and machine sensors
+
+BI tools are typically designed to work with highly structured, well-understood data, often stored in a relational 
+data repository. These traditional BI tools typically only analyze snapshots of data rather than the entire data set.
+
+Big Data in ML context:
+An organization does not have to have big data in order to use machine learning techniques; however, big data can help improve the accuracy of machine learning models. 
+
+Technology transition—> unsolved business problem + technology maturation for supporting ML. Was never a “lack of data”
+
+Big data technologies:
+- parallel processing 
+- GPUs
+- data virtualization
+- containerization
+- microservices
+- distributed file systems
+- in - memory db’s
+
+Understanding/Trusting Data(Cleansing/Refinement)
+
+Cleaning data means that you transform your data into a form that can be understood by a machine learning algorithm. For example, algorithms use numbers, but data is often in the form of words. You have to turn those words into numbers. In addition, you have to make sure those numbers are sensibly derived and internally consistent. You need to decide how you handle missing data and other data irregularities.
+
+Hybrid Cloud & ML
+
+When approaching machine learning and big data, many organizations have discovered that a combination of public and private cloud services is the most pragmatic way to ensure scalability, security, and compliance. To deepen learning, a company may, for example, want to leverage Graphics Processing Units (GPUs) on the cloud rather than building their own GPU-based environment. This is a hybrid approach.
+
+A hybrid cloud is a combination of on-premises and public cloud services intended to work in unison. The hybrid environment provides businesses with the flexibility to select the most appropriate service for specific workloads based on critical factors such as cost, security, and performance
+
+Statistics/Data Mining & ML
+
+
+Many of the widely used data mining and machine learning algorithms are rooted in classical statistical analysis. Data scientists combine technology backgrounds with expertise in statistics, data mining, and machine learning to use all disciplines in collaboration
+
+having an understanding of the business problem, business goals, and subject matter expertise is essential. You can’t expect to get good results by focusing on the statistics alone without considering the business side.
+
+Statistics
+is the science of analyzing the data. Classical or conventional statistics is inferential in nature, meaning it’s used to reach conclusions about the data (various parameters). Statistical modeling is focused primarily on making inferences and understanding the characteristics of the variables
+
+
+Data mining
+which is based on the principles of statistics, is the process of exploring and analyzing large amounts of data to discover patterns in that data. Algorithms are used to find relationships and patterns in the data, and then this information about the patterns is used to make forecasts and predictions. Data mining is used to solve a range of business problems, such as fraud detection, market basket analysis, and customer churn analysis. Traditionally, organizations use data mining tools on large volumes of structured data, such as customer relationship management databases or aircraft parts inventories. The goal of data mining is to explain and understand the data. Data mining is not intended to make predictions or back up hypotheses
+
+ML in context of AI
+￼
+
+
+Natural Language Processing (NLP):
+NLP is the ability to train computers to understand both written text and human speech. NLP techniques are needed to capture the meaning of unstructured text from documents or communication from the user. Therefore, NLP is the primary way that systems can interpret text and spoken language. NLP is also one of the fundamental technologies that allows non-technical people to interact with advanced technologies. For example, rather than needing to code, NLP can help users ask a system questions about complex data sets. Unlike structured database information that relies on schemas to add context and meaning to the data, unstructured information must be parsed and tagged to 
+find the meaning of the text. Tools required for NLP include categorization, ontologies, tapping, catalogs, dictionaries, and language models
+
+
+AI is the superset(its the reasoning(inferring), understanding written text & human speech ,(planning- intelligent systems that take actions autonomously based on context)
+
+ML improves the accuracy, learn and adapt a model without explicit programming
+
+Machine learning techniques 
+- required to improve the accuracy of predictive models
+- Depending on the nature of the business problem being addressed
+- different approaches based on the type and volume of the data
+
+
+Supervised learning 
+typically begins with an established set of 
+data and a certain understanding of how that data is classified. 
+Supervised learning is intended to find patterns in data that can 
+be applied to an analytics process. This data has labeled features 
+that define the meaning of data.
+
+EX. many images of animals all labeled
+Usecases: fraud detection, recommendation solutions, speech recognition, 
+or risk analysis
+
+The algorithms are trained using preprocessed examples, and at 
+this point, the performance of the algorithms is evaluated with 
+test data. 
+
+If the model is fit to only represent the patterns that exist in the 
+training subset, you create a problem called overfitting.
+
+Overfitting means that your model is precisely tuned for your training 
+data but may not be applicable for large sets of unknown data. 
+To protect against overfitting, testing needs to be done against 
+unforeseen or unknown labeled data. Using unforeseen data for 
+the test set can help you evaluate the accuracy of the model in 
+predicting outcomes and results, to avoid you need to constantly train with new data and automate the selection of an algorithm, or using multiple algorithms to test performance and it will ultimately scale
+
+UnSupervised Learning:
+Unsupervised learning is best suited when the problem requires a massive amount of data that is unlabeled. For example, social media applications, such as Twitter, Instagram, Snapchat, and so on all have large amounts of unlabeled data. Understanding the meaning behind this data requires algorithms that can begin to understand the meaning based on being able to classify the data based on the patterns or clusters it finds.
+
+Instead, machine learning classifiers based on clustering and association are applied in order to identify unwanted email.
+
+Unsupervised learning algorithms segment data into groups of examples (clusters) or groups of features. The unlabeled data creates the parameter values and classification of the data. In essence, this process adds labels to the data so that it becomes supervised
+
+Reinforcement learning 
+is a behavioral learning model. The algorithm receives feedback from the analysis of the data so the user is guided to the best outcome. Reinforcement learning differs from other types of supervised learning because the system isn’t trained with the sample data set. Rather, the system learns through trial and error. Therefore, a sequence of successful decisions will result in the process being “reinforced” because it best solves the problem at hand.
+
+Usecases: Robotics or game playing
+
+Neural Networks/Deep Learning
+
+Deep learning is a specific method of machine learning that incorporates neural networks in successive layers in order to learn from data in an iterative manner. Deep learning is especially useful when you’re trying to learn patterns from unstructured data
+
+Deep learning — complex neural networks — are designed to emulate how the human brain works so computers can be trained to deal with abstractions and problems that are poorly defined. 
+
+Neural networks and deep learning are often used in image recognition, speech, and computer vision applications
+
+A neural network consists of three or more layers: an input layer, one or many hidden layers, and an output layer. Data is ingested through the input layer. Then the data is modified in the hidden layer and the output layers based on the weights applied to these nodes. The typical neural network may consist of thousands or even millions of simple processing nodes that are densely interconnected. The term deep learning is used when there are multiple hidden layers within a neural network. Using an iterative approach, a neural network continuously adjusts and makes inferences until a specific stopping point is reached.
+
+Deep learning is a machine learning technique that uses hierarchical neural networks to learn from a combination of unsupervised and supervised algorithms. Deep learning is often called a sub-discipline of machine learning. Typically, deep learning learns from unlabeled and unstructured data. While deep learning is very similar to a traditional neural network, it will have many more hidden layers. The more complex the problem, the more hidden layers there will be in the model
+
+Applying Machine Learning Strategy
+
+With machine learning, you have the opportunity to use the data generated by your business to anticipate business change and plan for the future. While it is clear that machine learning is a sophisticated set of technologies, it is only valuable when you find ways to tie technology to outcomes. Your business is not static; therefore, as you learn more and more from your data, you can be prepared for business change.
+
+Before you can define the strategy, you have to understand the problem that you’re trying to solve
+
+Your business isn’t static; much of the nuances and knowledge about your customers is hidden inside structured, unstructured, and semi-structured data.
+
+One of the traps that company leadership falls into is its assumptions and biases. Too often company management looks at the data presented and interprets the results through its own lens
+
+What is the source of the data? Who has manipulated that data? Are the data sources reliable?
+
+After the data quality is good, it is important to understand the context of the data being applied to the problem
+
+(Correlation - danger without context)
+
+Over time as more data is ingested into the model, the system learns and gains more insight and more sophistication in order to predict the future. Therefore, machine learning becomes an invaluable partner in strategic planning
+
+Also the more data you have the less anomalies are thrown out and identified as true anomalies
+
+apply the most appropriate machine learning algorithms to a problem
+
+most appropriate data (that is accurate and clean), and using the best performing models
+
+continuously train the model and learn from the outcomes by learning from the data. The automation of this process of modeling, training the model, and testing leads to accurate predictions to support business change.
+
+ML to Outcomes
+
+You need to understand the problem you’re trying to solve. The model you design will represent an understanding of the data and your ability to predict outcomes based on that data
+
+The bottom line is that with machine learning you are building an application based on a business outcome. Therefore, you need to understand how all the elements of the software and infrastructure support those outcomes. How do the elements fit together and communicate with each other to form a system? How do you create an environment that scales as more data and more logic are added? You need to understand that you are building a system that requires testing, management, documentation, and so on
+
+
+ML to Business Needs
+
+Machine learning offers potential value to companies trying to leverage big data and helps them better understand the sub-tle changes in behavior, preferences, or customer satisfaction. 
+
+Business leaders are beginning to appreciate that many things happen within their organizations and with their industries that  can’t be understood through a query. It isn’t the questions that you know; it’s the hidden patterns and anomalies buried in the data that can help or hurt you
+
+Example: In order to prevent customer churn, it is critical that you have enough data about the customer’s history, his preferences, the services he has purchased in the past, and his complaints. In a highly stable market, this approach to analytics might have been a predictor of the future. But in volatile markets, this approach will not work. You have to be able to anticipate market changes and changes in customer buying patterns. Using machine learn-
+ing models can help you predict changes that will impact revenue. 
+
+traditional BI approach and a machine learning approach to customer churn? With traditional BI, the organization is able to understand what has happened in the past and can evaluate trends of customer loyalty. In contrast, the machine learning algorithm creates a model that brings in massive amounts of both internal and external data. After the data is trained and tested, analysts can begin to anticipate changes in customer preferences.
+
+
+ML Impact on Applications
+
+When building applications from logic, you assume that business processes will remain constant. However, the reality is that processes change. If you can begin by modeling data, it will lead you to changes in process and logic
+
+ML Algorithms
+
+Machine learning algorithms are most often written in one of several languages: Java, Python, or R
+
+Machine learning algorithms are different from other algorithms. With most algorithms, a programmer starts by inputting the algorithm. However, with machine learning the process is flipped. With machine learning, the data itself creates the model. The more data that is added to the algorithm, the more sophisticated the algorithm becomes
+
+Bayesian algorithms(stats/prob along with gaussian mixture, markov models
+allow data scientists to encode prior beliefs about what models should look like, independent of what the data states. These algorithms are especially useful when you don’t have massive amounts of data to confidently train a model.
+
+Clustering
+is a fairly straightforward technique to understand objects with similar parameters are grouped together (in a cluster). All objects in a cluster are more similar to each other than objects in other clusters. Clustering is a type of unsupervised learning because the data is not labeled. The algorithm interprets the parameters that make up each item and then groups them accordingly
+
+Decision trees 
+can be used to map the possible outcomes of a decision. Each node of a decision tree represents a possible outcome. Percentages are assigned to nodes based on the likelihood of the outcome occurring
+
+Dimensionality reduction
+helps systems remove data that’s not useful for analysis. This group of algorithms is used to remove redundant data, outliers, and other non-useful data
+
+Instance-based algorithms
+are used when you want to categorize new data points based on similarities to training data.referred to as 
+lazy learners because there is no training phase instance-based algorithms simply match new data with training data and categorize the new data points based on similarity to the training data
+
+Neural Networks/Deep Learning:
+A neural network attempts to mimic the way a human brain approaches problems and uses layers of interconnected units to learn and infer relationships based on observed dataWhen there is more than one hidden layer in a neural network, it is sometimes called deep learning.Neural network models are able to adjust and learn as data changes. Neural networks are often used when data is unlabeled or unstructured. 
+
+the content of images
+for advanced fraudulent techniques where linear regression fails , used by payment processors (take into account thousands of data points in order to understand the context around a transaction)
+￼
+
+Linear Regression:
+
+
+Regression algorithms
+are commonly used for statistical analysis and are key algorithms for use in machine learning. Regression algorithms help analysts model relationships between data points.Regression algorithms can quantify the strength of correlation between variables in a data set. In addition, regression analysis can be useful for predicting the future values of data based on historical values. However, it is important to remember regression analysis assumes that correlation relates to causation. Without understanding the context around data, regression analysis may lead you to inaccurate predictions.
+
+linear how two points are related
+separate valid transactions from fraudulent ones 
+Regularization
+is a technique to modify models to avoid the problem of overfitting simplifies overly complex models that 
+are prone to be overfit. If a model is overfit, it will give inaccurate predictions when it is exposed to new data sets.
+Overfitting occurs when a model is created for a specific data set but will have poor predictive capabilities for a generalized data set
+
+Rule-based machine learning algorithms
+use relational rules to describe data. A rule-based system can be contrasted from machine learning systems that create a model that can be generally applied to all the incoming data. In the abstract, rule-based systems are very easy to understand: If X data is inputted, do Y.
+
+ensemble modeling: 
+all 3 linear, neural and deep 
+
+while the linear algorithm might miss some fraudulent 
+activity, it may be very good at catching the most common and straightforward schemes. The final model will take votes from each machine learning model and either approve or block a transaction. This sort of assessment is very similar to a medical patient getting multiple doctors’ opinions. In the end, the goal is that the multiple opinions will yield more accurate results
+
+
+Training ML Systems
+
+When you’re training a machine learning system, you know the inputs (for example customer income, buying history, location, and so on), and you know your desired goal (predicting a customer’s propensity to churn). However, the great unknown is the mathematical functions to transform that raw data into a customer churn prediction
+
+
+
+Representation
+The algorithm creates a model to transform the inputted data into the desired results. As the learning algorithm is exposed to more data, it will begin to learn the relationship between the raw data and which data points are strong predictors for the desired outcome.
+
+Evaluation.
+As the algorithm creates multiple models, either a human or the algorithm will need to evaluate and score the models 
+based on which model produces the most accurate predictions. It is important to remember that after the model is 
+operationalized, it will be exposed to unknown data. As a result, make sure the model is generalized and not overfit to 
+your training data.
+
+Optimization.
+After the algorithm creates and scores multiple models, select the best performing algorithm. As you expose the 
+algorithm to more diverse sets of input data, select the most generalized model.
+
+The most important part of the training process is to have enough data so you’re in a position to test your model. Often the first pass at training provides mixed results. This means that you either might need to refine your model or provide more data. 
+
+
+When you have completed the training process, you’re ready to test your understanding of the domain to see whether you have the right amount of knowledge or whether you are still required to collect more data and learn more. This is precisely what happens in an automated fashion when you design a machine learning system
+
+Faulty data —> inaccurate predictions, so think about what data should be included in your ML app
+
+Identifying Data
+traditional systems of record data (such as customer, product, transactional, and financial data) and external data (for example, social media, news stories, weather data, image data, or geospatial data). In addition, many data structures are critical to analyzing information, including structured ( on premise data centers, relational dband unstructured data
+
+Unstructured data is still widely underutilized by businesses and provides a great opportunity for monetization. Cloud, mobile, and social have contributed to a huge increase of unstructured data
+
+
+Governing Data
+Understanding and governing your data are prerequisites for an 
+effective use of machine learning to solve real business problems. 
+There will be a different level of governance when you are training 
+data than when you use that data in a production environment. In 
+the traditional world of data warehouses or relational database 
+management, it is likely that your company has well-understood 
+rules about how data needs to be handled and protected.
+
+* Personally identifiable records are protected
+* unauthorized individuals can’t access private or restricted data,who is allowed to see data being ingested into a machine learning application
+* will the applications process customer or employee data that is covered by industry rules or governmental regulations? If the results of a machine learning algorithm produce additional customer data, those results may need to be secured.
+* Understand where data will be physically located and where the machine learning will take place. Some countries require that citizen data be kept within the country. Other rules and regulations may prohibit certain data from moving to a public cloud.
+
+
+ML Cycle
+
+Creating a machine learning application or operationalizing a machine learning algorithm is an iterative process., you need to keep your model fresh when it goes into production because user preferences change and competitors emerge
+
+
+
+Business problem level
+* understand the data that you have
+* collaborate:able to predict business outcomes, there has to be a rigorous collaboration with the business. Line of Business (LoB) leaders are best able to understand the important data that is used to analyze the business. However, they often have a bias about what is most important to customers and the data that is most important. It is critical that the data science and data analytics teams discover new data sources that can improve the ability of businesses to uncover the hidden patterns and trends. (collaboration between those business analysts, executives, strategists, data scientists, and analysts —AI journey workshop)
+* embark on a pilot project:start with a problem that can be tied to a business outcome. But don’t get ahead of yourself. Make sure that you select a small problem where you can readily identify the data that you already have and the data sources that you can obtainYour selected pilot is also a marketing tool to demonstrate to the business that you can anticipate the future requirements of customers,
+* evaluation-when you remove biases you will understand your business in a very different way, dispute assumptions  because results may differ from how business is conducted,you can also learn more from a failed pilot than a real one
+* next actions-insights you can apply to a business strategy,more data more business leaders in the process
+
+
+
+
+
+Identify the data:
+Identifying the relevant data sources is the first step in the cycle. In addition, as you develop your machine learning algorithm, think about expanding the target data to improve the system.
+
+Are you using the right data sources that are the most up to date? Have you put the data into a form that is usable? Are you protecting the identity of your customers’ private data? Are you selecting the best third-party data sources that will put your own data in context with your industry?
+
+Most companies have important data that is stored in silos across different business units. Some of the important data may be found in social media sources. Data may also be found in unstructured data sources such as documents related to new research findings. Data is also found in semi-structured sources such as sensor and IoT-based systems
+
+Each organization that engages with customers understands a different view of the customer. What if you could get a broader perspective of all those touch points and interactions with clients? What could it tell you about your client’s preferences that you didn’t know? Many of these business units will deal with different product lines with different buyers
+
+bring in data combination that makes sense when together and can be used to solve a problem, traceable
+
+
+Prepare data:
+Make sure your data is clean, secured, and governed. If you create a machine learning application based 
+on inaccurate data, the application will fail.
+
+Select the machine learning algorithm:
+You may have several machine learning algorithms applicable to your data and business challenge.
+
+Train:
+You need to train the algorithm to create the model. Depending on the type of data and algorithm, the training process may be supervised, unsupervised, or reinforcement learning.
+
+Evaluate:
+Evaluate your models to find the best performing 
+algorithm.
+
+Deploy:
+Machine learning algorithms create models that can 
+be deployed to both cloud and on-premises applications.
+
+Predict:
+After deployment, start making predictions based 
+on new, incoming data.
+
+Assess predictions:
+Assess the validity of your predictions. 
+The information you gather from analyzing the validity of 
+predictions is then fed back into the machine learning cycle 
+to help improve accuracy.
+
+Tools
+Python,R
+Statistical/Probability methods
+spark Mlib,tensorflow
+
+Building a Data Science team: 
+
+You won’t find a unicorn(a person with all the different skillsets you need)
+
+* Build a team with a mix of skills
+
+* Pick a lead data scientist who is well versed in both programming and architectural principles. In addition, the individual must have proven leadership skills in order to direct the team to execute on business goals
+
+* Bring in a business analyst who knows your industry as well as your company.
+
+* Make sure a member of the team can tell a story from the data. This skill is different than interpreting the data or understanding the data; it’s using the data to frame a discussion or provoke an action.
+
+* Select representative business leaders who understand what they need to gain from the project.
+
+* Add subject matter experts to the team who really understand the details of how processes work and the nature of the data. These experts should collaborate with a data engineer who understands how to capture and process the data.
+
+* Find consultants when needed who can help train the team on new languages or new tools that support the project goals.
+
+* Bring in specialists for specific technical areas where you don’t have in-house talent
+
+
+New use cases: 
+
+Exploring machine learning from pilots to production will help you gain insights into new uses. There may be many other areas within your business that can benefit from the type of predictive analytics that machine learning can provide.
